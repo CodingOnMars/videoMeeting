@@ -1,0 +1,15 @@
+.partners {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    &__svg {
+        max-width: 100px;
+        height: 16px;
+    }
+
+    &__svg--desktop {
+        display: none;
+    }
+}
