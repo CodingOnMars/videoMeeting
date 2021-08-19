@@ -218,9 +218,11 @@
     }
 
     .login-btn {
+        transition: border-bottom .3s ease-in-out;
         border-bottom: 2px solid transparent;
 
         &:hover {
+            transition: border-bottom .3s ease-in-out;
             border-bottom: 2px solid $black-color;
         }
     }
