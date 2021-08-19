@@ -1,8 +1,8 @@
 # Landing page for online video software
 
-![Meeting website picture]()
+![Meeting website picture](https://github.com/CodingOnMars/videoMeeting/blob/main/app/images/cover.webp)
 
-[Click to open a live version]() 🠒
+[Click to open a live version](https://codingonmars.github.io/videoMeeting/) 🠒
 
 ## Build Setup
 
