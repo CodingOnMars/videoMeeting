@@ -121,6 +121,8 @@
     }
 
     .partners {
+        padding-bottom: 50px;
+
         &__svg {
             max-width: 150px;
             height: 35px;
@@ -132,10 +134,15 @@
     }
 
     .features {
+        padding-top: 50px;
 
         &__title,
         &__description {
             max-width: 500px;
+        }
+
+        &__items {
+            padding-top: 28px;
         }
     }
 
