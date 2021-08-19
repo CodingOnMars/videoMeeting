@@ -208,12 +208,31 @@
         cursor: pointer;
     }
 
-    .download-btn,
-    .hero__btn {
-        transition: opacity .5s ease-in-out;
+    .menu__link {
+        transition: text-decoration .3s ease;
 
         &:hover {
-            transition: opacity .5s ease-in-out;
+            transition: text-decoration .3s ease;
+            text-decoration: underline;
+        }
+    }
+
+    .login-btn {
+        transition: border-bottom .3s ease-in-out;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+            transition: border-bottom .3s ease-in-out;
+            border-bottom: 2px solid $black-color;
+        }
+    }
+
+    .download-btn,
+    .hero__btn {
+        transition: opacity .3s ease-in-out;
+
+        &:hover {
+            transition: opacity .3s ease-in-out;
             opacity: .8;
         }
     }
